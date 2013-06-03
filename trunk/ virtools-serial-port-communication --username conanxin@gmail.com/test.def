@@ -1,0 +1,10 @@
+; test.def : Declares the module parameters for the DLL.
+
+LIBRARY "test"
+DESCRIPTION 'test Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    CKGetPluginInfo
+    CKGetPluginInfoCount
+    RegisterBehaviorDeclarations
